@@ -150,3 +150,31 @@ body {
 .card_content_empty p {
     margin-top: 15px;
 }
+
+@media (max-width: 767px) {
+    .button_ui {
+        width: 100%;
+    }
+    .modal_container {
+        padding: 15px;
+    }
+    .modal_content {
+        width: 100%;
+    }
+    .card_container,
+    .card_container_grid {
+        grid-template-columns: 1fr;
+        padding: 40px 15px;
+    }
+    .card_content .project_head {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .layer_head .layer_head_index,
+    .layer_head .layer_head_action {
+        width: 24%;
+    }
+    .layer_head .layer_head_name {
+        width: 52%;
+    }
+}
